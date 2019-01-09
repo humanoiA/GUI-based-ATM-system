@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1B2D6F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FundController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="206.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@banner.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="286.0" layoutY="300.0" mnemonicParsing="false" onAction="#checkandpass" prefHeight="31.0" prefWidth="43.0" text="Go" />
+      <Label alignment="CENTER" layoutX="225.0" layoutY="124.0" prefHeight="17.0" prefWidth="164.0" text="Welcome," textFill="#e8e409" />
+      <Label fx:id="name" alignment="CENTER" layoutX="225.0" layoutY="141.0" prefHeight="17.0" prefWidth="164.0" textFill="#e8e409" />
+      <Label alignment="CENTER" layoutX="225.0" layoutY="170.0" prefHeight="17.0" prefWidth="164.0" text="Enter Account Numer to which you want to transfer funds to" textFill="#e8e409" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <TextField fx:id="accountnumber" layoutX="233.0" layoutY="200.0" />
+      <Label fx:id="notice" alignment="CENTER" layoutX="152.0" layoutY="343.0" prefHeight="17.0" prefWidth="312.0" textFill="#e8e409" />
+      <Button layoutX="504.0" layoutY="351.0" mnemonicParsing="false" onAction="#Home" text="Main Screen" textFill="#092504" />
+      <Label alignment="CENTER" layoutX="226.0" layoutY="235.0" prefHeight="17.0" prefWidth="164.0" text="Enter Amount To Transfer" textFill="#e8e409" />
+      <TextField fx:id="amount" layoutX="234.0" layoutY="265.0" />
+   </children>
+</AnchorPane>
