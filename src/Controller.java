@@ -146,6 +146,7 @@ public class Controller {
 							}
 						}
 						catch (Exception e) {
+							notice.setText("Check Internet Connection");
 							// TODO: handle exception
 						}
 			//new WithdrawController().getName(name);
@@ -200,7 +201,7 @@ public class Controller {
 							}
 						}
 						catch (Exception e) {
-							// TODO: handle exception
+							notice.setText("Check Internet Connection");
 						}
 			//new WithdrawController().getName(name);
 		} }catch (Exception e) {
@@ -252,7 +253,7 @@ public class Controller {
 							}
 						}
 						catch (Exception e) {
-							// TODO: handle exception
+							notice.setText("Check Internet Connection");
 						}
 			//new WithdrawController().getName(name);
 		} }catch (Exception e) {
@@ -305,7 +306,7 @@ public class Controller {
 							}
 						}
 						catch (Exception e) {
-							// TODO: handle exception
+							notice.setText("Check Internet Connection");
 						}
 			//new WithdrawController().getName(name);
 		} }catch (Exception e) {
@@ -378,7 +379,7 @@ public class Controller {
 							}
 						}
 						catch (Exception e) {
-							// TODO: handle exception
+							notice.setText("Check Internet Connection");
 						}
 			//new WithdrawController().getName(name);
 		} }catch (Exception e) {
@@ -422,7 +423,7 @@ public class Controller {
 							}
 						}
 						catch (Exception e) {
-							// TODO: handle exception
+							notice.setText("Check Internet Connection");
 						}
 			//new WithdrawController().getName(name);
 		} }catch (Exception e) {
