@@ -64,7 +64,7 @@ public class MiniController implements Initializable {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://localhost:3306/mithu?autoReconnect=true&useSSL=false","root","polkadot");
+			"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
 			Statement stmt=con.createStatement();
 			ResultSet rs1=stmt.executeQuery("select * from transactions where id="+new Controller().push4());
 			while(rs1.next()) {
