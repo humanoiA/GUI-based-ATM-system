@@ -121,7 +121,7 @@ public class Controller {
 						try {
 							Class.forName("com.mysql.cj.jdbc.Driver");
 							Connection con=DriverManager.getConnection(
-							"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+							"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 							Statement stmt=con.createStatement();  
 							ResultSet rs1=stmt.executeQuery("select * from banking where pin="+input);
 							int bal = -1;
@@ -175,7 +175,7 @@ public class Controller {
 						try {
 							Class.forName("com.mysql.cj.jdbc.Driver");
 							Connection con=DriverManager.getConnection(
-							"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+							"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 							Statement stmt=con.createStatement();  
 							ResultSet rs1=stmt.executeQuery("select * from banking where pin="+input);
 							int bal = -1;
@@ -228,7 +228,7 @@ public class Controller {
 						try {
 							Class.forName("com.mysql.cj.jdbc.Driver");
 							Connection con=DriverManager.getConnection(
-							"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+							"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 							Statement stmt=con.createStatement();  
 							ResultSet rs1=stmt.executeQuery("select * from banking where pin="+input);
 							int bal = -1;
@@ -281,7 +281,7 @@ public class Controller {
 						try {
 							Class.forName("com.mysql.cj.jdbc.Driver");
 							Connection con=DriverManager.getConnection(
-							"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+							"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 							Statement stmt=con.createStatement();  
 							ResultSet rs1=stmt.executeQuery("select * from banking where pin="+input);
 							int bal = -1;
@@ -354,7 +354,7 @@ public class Controller {
 						try {
 							Class.forName("com.mysql.cj.jdbc.Driver");
 							Connection con=DriverManager.getConnection(
-							"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+							"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 							Statement stmt=con.createStatement();  
 							ResultSet rs1=stmt.executeQuery("select * from banking where pin="+input);
 							int bal = -1;
@@ -399,7 +399,7 @@ public class Controller {
 						try {
 							Class.forName("com.mysql.cj.jdbc.Driver");
 							Connection con=DriverManager.getConnection(
-							"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+							"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 							Statement stmt=con.createStatement();  
 							ResultSet rs1=stmt.executeQuery("select * from banking where pin="+input);
 							int bal = -1;

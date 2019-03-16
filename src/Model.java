@@ -14,7 +14,7 @@ public class Model {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+			"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 			Statement stmt=con.createStatement();  
 			ResultSet rs1=stmt.executeQuery("select * from banking where pin="+a);
 			int bal = -1,id=1;
@@ -55,7 +55,7 @@ public class Model {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+			"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 			Statement stmt=con.createStatement();  
 			ResultSet rs1=stmt.executeQuery("select * from banking where pin="+a);
 			if(rs1.next()) {
@@ -73,7 +73,7 @@ public class Model {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+			"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 			Statement stmt=con.createStatement();  
 			ResultSet rs1=stmt.executeQuery("select * from banking where pin="+a);
 			int bal = -1;
@@ -93,7 +93,7 @@ public class Model {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+			"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 			Statement stmt=con.createStatement();  
 			ResultSet rs1=stmt.executeQuery("select * from banking where pin="+a);
 			int bal = -1;
@@ -122,7 +122,7 @@ public class Model {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+			"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 			Statement stmt=con.createStatement();  
 			ResultSet rs1=stmt.executeQuery("select * from banking where pin="+oldpin);
 			int bal = -1;
@@ -153,7 +153,7 @@ public class Model {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+			"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 			Statement stmt=con.createStatement();  
 			BigInteger c = new BigInteger(account);
 			BigInteger lim = new BigInteger("99999999999");
@@ -204,7 +204,7 @@ public class Model {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+			"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 			Statement stmt=con.createStatement();  
 			ResultSet rs1=stmt.executeQuery("select * from banking where accountnumber="+a);
 			if(rs1.next()) {
@@ -222,7 +222,7 @@ public class Model {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://sql12.freemysqlhosting.net/sql12273806?autoReconnect=true&useSSL=false","sql12273806","je4N38nbVu");
+			"jdbc:mysql://remotemysql.com/gR2fa7dl4U?autoReconnect=true&useSSL=false","gR2fa7dl4U","H8196rO3po");
 			Statement stmt=con.createStatement();  
 			ResultSet rs1=stmt.executeQuery("select * from banking where accountnumber="+account);
 			int bal1=0,bal2 =0,id1=0,id2=0;
